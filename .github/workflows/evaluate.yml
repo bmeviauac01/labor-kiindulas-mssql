@@ -38,4 +38,5 @@ jobs:
         uses: akosdudas/ahk-action-publish-result-pr@master
         with:
           input-file: "result.txt"
+          image-extension: ".png"
           github-token: "${{ secrets.GITHUB_TOKEN }}"
