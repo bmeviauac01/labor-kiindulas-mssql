@@ -32,7 +32,7 @@ jobs:
         uses: akosdudas/ahk-action-neptuncheck@v1
 
       - name: Evaluate
-        uses: docker://bmeaut/sflab-ahk:mssql-2021
+        uses: docker://akosdudas/sflab-ahk:mssql-2021
         env:
           DATABASE_CONNECTIONSTRING: "Server=mssqlserver;User id=sa;Password=xE4AK2J1uaMcm4qW"
 
